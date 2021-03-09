@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/category_screen_bg"
+    tools:context=".activites.CategoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="43dp"
+            android:text="Select Category"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/bt_Animation"
+            android:layout_width="match_parent"
+            android:background="@drawable/animation"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Animaiton" />
+
+        <Button
+            android:id="@+id/bt_DigitalMarketing"
+            android:layout_width="match_parent"
+            android:background="@drawable/digital_marketing_bg"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="DigitalMarketing" />
+
+        <Button
+            android:id="@+id/bt_Testing"
+            android:layout_width="match_parent"
+            android:background="@drawable/testing_item_bg"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Testing" />
+
+        <Button
+            android:id="@+id/bt_Programing"
+            android:layout_width="match_parent"
+            android:background="@drawable/programming_item_bg"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Programing" />
+
+        <Button
+            android:id="@+id/bt_VideoProduction"
+            android:layout_width="match_parent"
+            android:background="@drawable/video_production"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:text="Video Production" />
+
+        <Button
+            android:id="@+id/bt_Motivation"
+            android:layout_width="match_parent"
+            android:background="@drawable/motivation"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="50dp"
+            android:layout_height="wrap_content"
+            android:text="Motivation" />
+    </LinearLayout>
+</ScrollView>
